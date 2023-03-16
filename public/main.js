@@ -10,8 +10,8 @@ function launch(vm) {
   if (vram < 8) {
     alert('The minimum amount of VRAM is limited to 8');
   }
-  else if (vram > 256) {
-    alert('The maximum amount of VRAM is limited to 256 MB (exceeding that limit can cause buggy and/or blank displays). 256 MB of display memory is the threshold at which the emulator display will become more slow.');
+  else if (vram > 128) {
+    alert('The maximum amount of VRAM is limited to 128 MB (exceeding that limit can cause buggy and/or blank displays). 128 MB of display memory is the threshold at which the emulator display will become more slow.');
   }
   var acpiEnabled = document.getElementById('acpiEnabled').checked;
   var asyncEnabled = document.getElementById('asyncEnabled').checked;
