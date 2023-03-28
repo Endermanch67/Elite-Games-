@@ -21,7 +21,7 @@ to this section's matching END comment to see page-specific styles.
       h1 {
         color: #cc00ff;
         text-align: center;
-      }
+      } 
       .game {
         border: 5px solid #ffd700;
         border-radius: 10px;
@@ -51,4 +51,7 @@ to this section's matching END comment to see page-specific styles.
       .util:hover {
         background-color: #ffd700;
         color: #8a2be2;
-      }
+      } 
+h3 { 
+text-align: center; 
+}
